@@ -1,0 +1,27 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bjelinek42/modern-javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bjelinek42/modern-javascript/issues"
+  },
+  "homepage": "https://github.com/bjelinek42/modern-javascript#readme",
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "moment": "^2.29.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
