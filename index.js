@@ -5,3 +5,6 @@ const Chart = require('chart.js');
 console.log("hello");
 
 console.log(moment().format("MMM Do YY"));
+
+var name = "Ben";
+console.log(`hello, my name is ${name} and it is ${moment().format("MMM Do YYYY")}`);

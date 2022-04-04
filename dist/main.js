@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\nconst Chart = __webpack_require__(/*! chart.js */ \"./node_modules/chart.js/dist/chart.esm.js\");\n// const myChart = new Chart(ctx, {...});\nconst ctx = document.getElementById('myChart');\n\nconsole.log(\"hello\");\n\nconsole.log(moment().format(\"MMM Do YY\"));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar Chart = __webpack_require__(/*! chart.js */ \"./node_modules/chart.js/dist/chart.esm.js\"); // const myChart = new Chart(ctx, {...});\n\n\nconsole.log(\"hello\");\nconsole.log(moment().format(\"MMM Do YY\"));\nvar name = \"Ben\";\nconsole.log(\"hello, my name is \".concat(name, \" and it is \").concat(moment().format(\"MMM Do YYYY\")));\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
